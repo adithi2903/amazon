@@ -296,6 +296,10 @@
   position: relative; top: -5px
 }
 
+.myDIV:hover{
+  cursor: pointer;
+}
+
 .wrap{
   display: inline;
   position: relative;
