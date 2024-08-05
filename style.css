@@ -1,0 +1,526 @@
+.amaz {
+  color: rgb(0, 113, 133);
+}
+
+.nike {
+  font-weight: bold;
+}
+
+.price {
+  font-size: larger;
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.cart {
+  background-color: rgb(255, 216, 20);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: none;
+  border-radius: 30px;
+  font-size: medium;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: 0.15s;
+  margin-top: 0px;
+}
+
+.buy {
+  background-color: rgb(255, 164, 28);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 34px;
+  padding-right: 34px;
+  border: none;
+  border-radius: 30px;
+  font-size: medium;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.gift {
+  font-size: medium;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.wish {
+  font-size: medium;
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.point {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.usd {
+  font-size: large;
+  color: rgb(93, 91, 91);
+}
+
+.today {
+  margin-top: 0px;
+  color: green;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 8px;
+}
+
+.after {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(93, 91, 91);
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+.sum {
+  color: rgb(191, 13, 13);
+}
+
+.deli {
+  font-family: Montserrat;
+  margin-top: 20px;
+  line-height: 0px;
+  margin-bottom: 0px;
+}
+
+.sizestyle {
+  font-family: Montserrat;
+}
+
+.size {
+  padding: 18px 18px 18px 18px;
+  border-radius: 50px;
+  border: 0px;
+  font-size: medium;
+  background-color: rgb(233, 234, 236);
+  transition: 0.15s;
+}
+
+.nostock {
+  font-family: Roboto;
+  position: relative;
+  opacity: 0.5;
+  top: -35px;
+  font-size: xxx-large;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.size9 {
+  padding: 18px 18px 0px 18px;
+  border-radius: 50px;
+  border: 0px;
+  font-size: medium;
+  background-color: rgb(233, 234, 236);
+  transition: 0.15s;
+  opacity: 0.8px;
+  height: 55px;
+}
+
+.notify {
+  font-size: medium;
+  border-width: 0.5px;
+  border-color: black;
+  padding: 5px 0px 5px 5px;
+}
+
+.nome {
+  font-family: Roboto;
+  font-size: medium;
+  padding: 5px 3px 5px 3px;
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.imgg {
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+  object-position: bottom;
+  display: inline-block;
+}
+
+.ltd {
+  border: 2px solid rgb(204, 12, 57);
+  border-radius: 4px;
+  width: fit-content;
+  padding: 3px;
+  background-color: rgb(204, 12, 57);
+  color: white;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.div3{
+  border-top: 22px solid rgb(35, 47, 62);
+  border-right: 12px solid transparent;
+  width: 100px;
+  place-items: center;
+  grid-column: 1/3;
+  }
+
+ .grd{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 116px;
+ } 
+
+ .div3, .div4 {
+  grid-row: 1/2; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+ }
+
+ .div4{
+  color: white;
+  grid-column: 1/-1;
+  font-size: 12px;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+.amaz:hover {
+  color: #9f6934;
+}
+
+.cart:hover {
+  background-color: #f1bd54;
+  transition: 0.15s;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.buy:hover {
+  background-color: rgb(232, 141, 4);
+  transition: 0.15s;
+  padding-left: 44px;
+  padding-right: 44spx;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.gift:hover {
+  padding-left: 5px;
+  padding-right: 15px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.wish:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.size:hover {
+  background-color: rgb(204, 205, 207);
+  cursor: pointer;
+}
+
+.nome:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.15s;
+}
+
+.cart:active {
+  opacity: 0.5;
+}
+
+.buy:active {
+  opacity: 0.5;
+}
+
+.size:active {
+  opacity: 0.5;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.rate{
+  display: inline;
+  color: rgb(0, 113, 133);
+  font-family: sans-serif;
+  font-size: small;
+}
+.rate:hover {
+  color: rgb(199, 81, 31);
+  text-decoration: underline;
+}
+
+.hide {
+  display: none;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  width: 240px;
+  padding: 20px;
+  box-shadow: 0 0 8px rgb(96, 94, 94);
+  position: absolute;
+  background-color: white;
+  z-index: 1000000;
+}
+
+.wrap:hover > .hide{
+  display: block;
+  margin-left: 80px;
+}
+
+.myDIV {
+  display: inline;
+  color: rgb(0, 113, 133);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  position: relative; top: -5px
+}
+
+.wrap{
+  display: inline;
+  position: relative;
+}
+
+.progress1{
+  border: 0.5px solid rgb(76, 74, 74);
+  border-radius: 2px;
+  height: 10px;
+  width: 150px;
+  vertical-align: text-bottom;
+  position: relative;
+  bottom: -2px;
+}
+
+.line1{
+  height: 10px;
+  background-color: rgb(255, 164, 28);
+}
+
+.staar{
+  color: rgb(0, 113, 133);
+  display: flex; 
+  font-size: small ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navdiv{
+  display: flex;
+  flex-flow: row;
+  background-color: rgb(18, 25, 33);
+  padding: 5px;
+  height: 70px;
+  width: auto;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  justify-content: space-between;
+}
+.logoimg{
+  height: 48px;
+  width: 138px;
+}
+.logo1{
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  height: 62px;
+  object-fit: fill;
+  background-color: rgb(18, 25, 33);
+  margin-left: 5px;
+}
+.deliverlogo{
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  height: 62px;
+  background-color: rgb(18, 25, 33);
+}
+.deliimg{
+  height: 48px;
+  width: 138px;
+}
+.srwhole{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0px;
+  height: 62px;
+}
+.srwhole:hover{
+  border: 1px solid white;
+  padding-left: 14px;
+  padding-right: 14px;
+  transition: 0.15s;
+}
+.searchbar{
+  padding: 0px;
+  margin:0px;
+  border: 0px;
+  border-radius: 0px;
+  height: 40px;
+}
+.sbutton{
+  padding: 0px;
+  height: 40px;
+  margin-top: -1px;
+  border: 0px;
+  background-color: white;
+  position: relative;
+  top: 12px;
+  
+}
+.cate{
+  background-color: rgba(255, 255, 255, 0.857);
+  border: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: relative;
+  top: 11px;
+  height: 40px;
+}
+.sicon{
+  height: 40px;
+  border: 0px;
+  border-radius: 0px;
+  background-color: rgb(232, 171, 90);
+  width: 40px;
+  position: relative;
+  top: 11px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.en{
+  height: 48px;
+  width: 100px;
+}
+.endiv{
+  position: relative;
+  padding: 0px;
+  margin-top: 0px;
+  border: 0px;
+  height: 62px;
+  background-color: rgb(18, 25, 33);
+}
+.acc{
+  position: relative;
+  padding: 0px;
+  margin-top: 1px;
+  border: 0px;
+  height: 62px;
+  background-color: rgb(18, 25, 33); 
+}
+.accimg{
+  height: 48px;
+  width: 150px;
+}
+.ret{
+  position: relative;
+  padding: 0px;
+  margin-top: 1px;
+  border: 0px;
+  height: 62px;
+  background-color: rgb(18, 25, 33);
+}
+.retimg{
+  height: 48px;
+  width: 98px;
+}
+.cartama{
+  position: relative;
+  padding: 0px;
+  margin-top: 1px;
+  border: 0px;
+  height: 62px;
+  background-color: rgb(18, 25, 33);
+  margin-right: 5px;
+}
+.cartimg{
+  height: 48px;
+  width: 85px;
+}
+.logo1:hover{
+  border: 1px solid white;
+}
+.deliverlogo:hover{
+  border: 1px solid white;
+}
+.endiv:hover{
+  border: 1px solid white;
+}
+.acc:hover{
+  border: 1px solid white;
+}
+.ret:hover{
+  border: 1px solid white;
+}
+.cartama:hover{
+  border: 1px solid white;
+}
+
+.navdiv2{
+  display: flex;
+  flex-flow: row;
+  background-color: rgb(38, 47, 62);
+  padding: 5px;
+  height: 36px;
+  width: auto;
+  position: fixed;
+  top: 72px;
+  right: 0px;
+  left: 0px;
+  justify-content: space-between;
+}   
+.b1{
+  padding: 0px;
+  border: 0px;
+  background-color: rgb(38, 47, 62);;
+
+}
+.b1img{
+  height: 32px;
+}
+.b1:hover{
+  border: 1px solid white;
+  transition: 0.15s;
+}
+.b2{
+  padding-left: 70px;
+  border: 0px;
+  background-color: rgb(38, 47, 62);;
+
+}
+.b2img{
+  height: 29px;
+}
+.b2:hover{
+  border: 1px solid white;
+  transition: 0.15s;
+}
+.div1{
+  margin-top: 95px;
+}
+.div2{
+  margin-top: 100px;
+}
